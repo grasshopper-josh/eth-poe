@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>POE</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <script src="./app.js"></script>
+</head>
+<body>
+  <h1>POE</h1>
+
+  <span id="reg-status"></span>
+  &nbsp;
+  <span>Account: </span><span id="eth-address"></span>
+  &nbsp;
+  <span>Balance: </span><span id="eth-balance"></span><span> wei</span>
+  <br>
+  <label for="name">Name: </label><input type="text" id="name" placeholder="e.g. Josh" />
+  &nbsp;
+  <label for="ipfs-address">IPFS Address: </label><input type="text" id="ipfs-address" placeholder="e.g. QmWHmY53RJLJwcoVAYXcrhHC7cfQaDFrgeFMP7cPrgWg1p" />
+  <button id="register" onclick="App.registerUser()">Register</button>
+  <br>
+  <span id="status"></span>
+  <span class="hint"><strong>Hint:</strong> open the browser developer console to view any errors and warnings.</span>
+</body>
+</html>
